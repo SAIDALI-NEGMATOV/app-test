@@ -1,12 +1,12 @@
 import './App.css';
 import Main from './main/main';
-// import Home from './Components/Home/Home';
+import Home from './Components/Home/Home';
 
 function App() {
   return (
     <div className="inter">
-      {/* <Home />
-      <Container /> */}
+      <Home />
+      {/* <Container /> */}
       <Main/>
     </div>
   );
